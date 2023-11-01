@@ -14,4 +14,13 @@ color: brown;
 }
 h2{
 color: rgb(241, 113, 113);
+} 
+.basico{
+    color: rgb(42, 165, 159);
+}
+.intermediario{
+    color: rgb(165, 91, 42);
+}
+.avancado{
+    color: rgb(81, 165, 42);
 }
