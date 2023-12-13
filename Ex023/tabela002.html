@@ -23,14 +23,24 @@
             background-color: gray;
             color: white;
         }
+        tbody tr:nth-child(odd){
+            background-color: lightgrey;
+        }
         .num{
             text-align: right;
+        }
+        caption{
+           font-size: 1.5em;
+           font-weight: bolder;
+           padding: 10px;
+           background-color: lightgrey;
         }
     </style>
 </head>
 <body>
-        <h1>Uso de tableas grandes</h1>
+        <h1>Uso de tableas grandes</h1> 
     <table>
+        <caption>Lista de países por população</caption>
         <thead>
             <tr>
                 <th>País</th>
@@ -54,10 +64,26 @@
                 <td>Indonésia</td>
                 <td class="num">277.184.719</td>
             </tr>
+            <tr>
+                <td>Paquistão</td>
+                <td class="num">240.215.932</td>
+            </tr>
+            <tr>
+                <td>Nigéria</td>
+                <td class="num">223.899.057</td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td class="num">203.062.512</td>
+            </tr>
+            <tr>
+                <td>Bangladesh</td>
+                <td class="num">172.452.382</td>
+            </tr>
         </tbody>
         <tfoot>
             <th>Total Estimável</th>
-            <td class="num">3.473.484.849</td>
+            <td class="num">4.313.114.732</td>
         </tfoot>
     </table>
 </body>
