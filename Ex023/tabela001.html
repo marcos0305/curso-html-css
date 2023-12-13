@@ -10,26 +10,26 @@
         }
         table{
             width: 350px;
-            border-collapse: collapse;
-            border: 3px solid rgba(255, 0, 0, 0.541);
-        }
-        .linha{
-            background-color: lightgreen;
-        }
-        .dado{
-            background-color: lightsalmon;
+            height: 350px;
+            border-collapse: collapse;          
         }
         td{
             border: 1px solid black;
             padding: 3px;
+            text-align: right;
+            vertical-align: bottom;
+        }
+        .numero{
+            text-align: left;
+            vertical-align: top;
         }
     </style>
 </head>
 <body>
     <h1>Primeira Tabela</h1>
     <table>
-        <tr class="linha">
-            <td>A1</td>
+        <tr >
+            <td  class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
@@ -46,7 +46,7 @@
         <tr>
             <td>A4</td>
             <td>B4</td>
-            <td class="dado">C4</td>
+            <td class="numero">C4</td>
         </tr>
     </table>
 </body>
